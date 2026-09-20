@@ -1,0 +1,26 @@
+{
+  "name": "alog_prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "worker": "node kafka/worker.js",
+    "kafka:up": "docker compose -f docker-compose.kafka.yml up -d",
+    "kafka:down": "docker compose -f docker-compose.kafka.yml down"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "kafkajs": "^2.2.4",
+    "mysql": "^2.18.1",
+    "node-cron": "^4.2.1",
+    "pg": "^8.20.0"
+  }
+}

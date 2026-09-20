@@ -1,0 +1,12 @@
+const TOPIC_NAVIRE_DETECTED = 'navire.detected';
+const TOPIC_QUAI_LIBERER = 'quai.liberer';
+const TOPIC_AIS_SIMULE = 'ais.simule';
+
+
+module.exports = { TOPIC_NAVIRE_DETECTED, TOPIC_QUAI_LIBERER, TOPIC_AIS_SIMULE };
+module.exports = { TOPIC_NAVIRE_DETECTED, TOPIC_QUAI_LIBERER, TOPIC_AIS_SIMULE };
+module.exports = {
+  TOPIC_NAVIRE_DETECTED,
+  TOPIC_QUAI_LIBERER,
+    TOPIC_AIS_SIMULE
+};
